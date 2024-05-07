@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>koduk motor</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+   <body>
+    <!-- feature -->
+    <section id="feature">
+      <div class="title-text">
+        <figure>
+            <img
+              src="img/koduk.logo-removebg-preview.png"
+              alt="logo"
+              class="logo"
+            />
+          </figure>
+        <div id="sideNav">
+            <nav>
+              <ul>
+                <li><a href="index.html"> <i id="left" class="fa fa-home"></i>HOME</a></li>
+                <li><a href="about.html"> <i id="left" class="fa fa-user"></i>ABOUT</a></li>
+                <li><a href="groupcarsrial.html"> <i id="left" class="fa fa-car"></i>CARS</a></li>
+                <li><a href="#"> <i id="left" class="fa fa-inr"></i>TESTIMONIALS</a></li>
+                <li><a href="#footer"> <i id="left" class="fa fa-phone"></i>MEET US</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div id="menuBtn">
+            <img src="img/menu.png" id="menu" />
+          </div>
+          <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+      
+            sideNav.style.right = "-250px";
+      
+            menuBtn.onclick = function(){
+              if(sideNav.style.right == "-250px"){ 
+                sideNav.style.right = "0";
+                menu.scr = "img/close.png";
+              }
+              else{
+                sideNav.style.right = "-250px"; 
+                menu.scr = "img/menu.png";
+              }
+            }
+          </script>
+      
+        <p>ABOUT US</p>
+        <h1>why choose us</h1>
+      </div>
+      <div class="feature-box">
+        <div class="features-img">
+          <img
+            src="img/2014-Alfa-Romeo-Giulietta-Sportiva-Red-1-1024x766.jpg"
+          />
+        </div>
+        <div class="features">
+          <h1>Over 30 years Of Experience and Delivering</h1>
+          <div class="features-desc">
+            <div class="feature-text">
+              <p>
+               KODUK MOTORS  C.E.O MR.DANIEL ODUORy ODUKU  has over 30 years experience in the automotive industry. Through Integrity and Trust many clients and friends have been able to sell and own cars that have served them well for many years.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- service -->
+
+    
+<!-- testimonial -->
+<section id="testimonial">
+  <div class="title-text">
+    <p>TESTIMONIAL</p>
+    <h1>What Client Says</h1>
+  </div>
+  <div class="testimonial-raw">
+    <div class="testimonial-column">
+      <div class="user">
+        <img src="img/canca pic.png" alt="">
+        <div class="user-info">
+          <h4>KEPHA ODUK <i class="fa fa-twitter"></i></h4>
+          <small>@kephachristian</small>
+        </div>
+      </div>
+      <p>Lore qui perspiciatis  nisi nihil officia quod ipsa numquam. Explicabo, debitis nesciunt? Veritatis?</p>
+    </div>
+    <div class="testimonial-column">
+      <div class="user">
+        <img src="img/2014-Alfa-Romeo-Giulietta-Sportiva-Red-1-1024x766.jpg" alt="">
+        <div class="user-info">
+          <h4>BRIAN DAWN <i class="fa fa-twitter"></i></h4>
+          <small>@briieenger</small>
+        </div>
+      </div>
+      <p>Lorem ipsum dolconsectsse explicabo facilis quam blanditiis quia, qui perspiciatis doloribus</p>
+    </div>
+    <div class="testimonial-column"> 
+      <div class="user">
+        <img src="img/2014-Volkswagen-Beetle-Yellow-2-1024x748-removebg-preview.png" alt="">
+        <div class="user-info">
+          <h4>VERA CAR HIRE<i class="fa fa-twitter"></i></h4>
+          <small>@veracarhire234</small>
+        </div>
+      </div>
+      <p>facilisqui perspinisi nihil officia quod ipsa numquam. Explicabo, debitis nesciunt? Veritatis?</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer -->
+<section id="footer">
+  <div class="title-text">
+    <p>CONTACT</p>
+    <h1>Book Your Car Today</h1>
+  </div>
+  <div class="footer-raw">
+    <div class="footer-left">
+      <h1>Opening Hours</h1>
+      <p>Monday to Friday - 9am to 6pm</p>
+      <p>saturday and sunday - 10am to 6pm</p>
+    </div>
+    <div class="footer-right">
+      <h1>Get In Touch</h1>
+ 
+      <p>Email us : <a href="email">odukevin.ok@gmail.com  <i class="fa fa-paper-plane-o" aria-hidden="true"></i></p> 
+    
+      <p>Find us on Whatsapp <i class="fa fa-whatsapp" aria-hidden="true"></i></p>
+
+      <p>Call now :<a href="tel"> 0793859174</a><i class="fa fa-phone-square"></i></p>
+
+      <p>Bruce House, Nairobi</p>
+     
+    </div>
+  </div>
+  
+</section>
+<!-- icons -->
+<section class="social-links">
+  <i class="fa fa-twitter" aria-hidden="true"></i>
+  <i class="fa fa-facebook" aria-hidden="true"></i>
+  <i class="fa fa-instagram" aria-hidden="true"></i>
+  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+  <i class="fa fa-shield" aria-hidden="true"></i>
+</section>
+  </body>
+</html>
